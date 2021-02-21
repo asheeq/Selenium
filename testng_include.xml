@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Guru 99 Smoke Test Demo">
+        <classes>
+            <class name="Testng.Bank">
+                <methods>
+                    <include name="tc01LaunchURL"></include>
+                    <include name="tc03EnterCredentials"></include>
+                    <include name="tc05VerifyHyperlinks"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
