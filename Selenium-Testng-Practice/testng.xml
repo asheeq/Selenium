@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ashiqur/IdeaProjects/Selenium-Testng-Practice/src/main/java/wikipediatest/Wikipedia.java">
+        <classes>
+            <class name="wikipediatest.Wikipedia">
+                <methods>
+                    <include name="browseWikipedia"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
